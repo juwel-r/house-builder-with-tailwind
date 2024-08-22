@@ -28,7 +28,8 @@
                 secInfo:'#494949',
                 secTitle:'#212121',
                 btnPrimary:'#ABEF5F',
-                btnSecondery:'rgba(171, 239, 95, 0.2)',
+                btnSecondery:'#d5f7af',
+                secBg:'#f5f5f5',
               },
               fontFamily:{
                 manrope:["Manrope"]
@@ -38,19 +39,19 @@
         }
       </script>
 </head>
-<body class="font-manrope">
-  <header  class=" bg-[#f5f5f5]">
+<body class="font-manrope mt-0">
+  <header  class=" bg-gradient-to-b from-secBg to-white">
     <nav class="lg:w-4/5 mx-auto pt-6 lg:pt-14">
       <div class="navbar">
 
-        <div class="navbar-start text-3xl font-extrabold">
-          <a class="pl-2 flex items-center gap-2">
-            <div class="w-8 h-8 bg-btnPrimary rounded-full flex items-center justify-center -rotate-45 text-xl"><i class="fa-solid fa-solid fa-arrow-right"></i></div>
+        <div class="navbar-start text-xl lg:text-3xl font-extrabold">
+          <a class="cursor-pointer pl-2 flex items-center gap-2">
+            <div class="lg:w-8 lg:h-8 h-6 w-6 p-1 bg-btnPrimary rounded-full flex items-center justify-center -rotate-45 lg:text-xl"><i class="fa-solid fa-solid fa-arrow-right"></i></div>
             <span class="block">Rinterio</span></a>
         </div>
   
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-txtPrimary">
+          <ul class="cursor-pointer menu menu-horizontal px-1 text-txtPrimary">
             <li><a class="font-bold text-secInfo">Home</a></li>
             <li><a>Service</a></li>
             <li><a>Portfolio</a></li>
@@ -61,16 +62,19 @@
   
         <div class="navbar-end ">
           <div class="hidden lg:flex justify-between flex-nowrap text-xl font-extrabold">
-            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
+
+            <div class="cursor-pointer w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
               <i class="fa-solid fa-cart-shopping"></i>
             </div>
-            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
+            <div class="cursor-pointer w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
               <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <a class="bg-btnPrimary rounded-3xl py-3 px-5 text-nowrap">Book Consult <i class="bg-black text-white rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i></a>
+            <a class="cursor-pointer bg-btnPrimary rounded-3xl py-3 px-5 text-nowrap">Book Consult 
+              <i class="bg-black text-white rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i>
+            </a>
           </div>
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div tabindex="0" role="button" class="pr-2 lg:hidden">
               <i class="w-12 h-12 bg-white rounded-full flex items-center justify-center fa-solid fa-bars"></i>
             </div>
             <ul
@@ -86,14 +90,33 @@
         </div>
       </div> 
     </nav>
-  </header>
 
+  ⁡⁣⁣⁢‍‍‍<!--𝗛𝗲𝗮𝗱𝗲𝗿 𝗕𝗮𝗻𝗻𝗲𝗿-->⁡
+     <section class="space-y-4">
+      <div class="mt-2 lg:mt-10 px-10 max-w-[570px] mx-auto">
+        <img class="w-full" src="./images/banner.png" alt="house">
+      </div>
+
+      <div class="lg:space-y-4 max-w-[1090px] mx-auto">
+        <h1 class="px-24 md:px-44 lg:px-10 text-secTitle text-3xl lg:text-6xl  font-extrabold text-center lg:leading-[85px]">A barn house of this design has a striking appearance</h1>
+        <p class="p-4 md:px-16 lg:px-14 text-secInfo text-center font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <div class="cursor-pointer w-4/5 md:w-52 bg-btnSecondery text-secTitle rounded-[32px] border border-btnPrimary mx-auto text-xl font-extrabold text-center py-3">View Details <i class="ml-1 bg-btnPrimary rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i></div>
+      </div>
+     </section>
+
+  </header> 
+
+  ⁡⁣⁣⁢<!--Main Section-->⁡
   <main>
-
+    ⁡⁣⁣⁢<!--Three Section in same bg-->⁡
+    <div>
+      <section></section>
+    </div>
   </main>
 
   <footer>
 
   </footer>
+  fd
 </body>
 </html>
