@@ -28,7 +28,7 @@
                 secInfo:'#494949',
                 secTitle:'#212121',
                 btnPrimary:'#ABEF5F',
-                btnSecondery:'#d5f7af',
+                btnSecondery:'#e5f3d6',
                 secBg:'#f5f5f5',
               },
               fontFamily:{
@@ -100,7 +100,10 @@
 
       <div class="lg:space-y-4 max-w-[1090px] mx-auto">
         <h1 class="px-24 md:px-44 lg:px-10 text-secTitle text-3xl lg:text-6xl  font-extrabold text-center lg:leading-[85px]">A barn house of this design has a striking appearance</h1>
-        <p class="p-4 md:px-16 lg:px-14 text-secInfo text-center font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <p class="p-4 md:px-16 lg:px-14 text-secInfo text-center font-medium">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+        </p>
+
         <div class="cursor-pointer w-4/5 md:w-52 bg-btnSecondery text-secTitle rounded-[32px] border border-btnPrimary mx-auto text-xl font-extrabold text-center py-3">View Details <i class="ml-1 bg-btnPrimary rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i></div>
       </div>
      </section>
@@ -111,7 +114,7 @@
   <main>
 
     ⁡⁣⁣⁢<!--Three Section in same bg-->⁡
-    <div class="bg-secBg">
+    <div class="bg-secBg lg:pb-20">
 
       <!--Section 1-->
       <section class="relative">
@@ -132,7 +135,7 @@
               <div class="w-32  cursor-pointer rounded-[32px] bg-white font-extrabold text-center text-secInfo py-2 px-4"><i class="mr-2 fa-solid fa-arrow-right"></i>About Us</div>  
 
               <h1 class=" lg:text-5xl text-3xl text-secTitle lg:text-left text-center xl font-extrabold ">We design thoughtful, <br> liveable spaces</h1> 
-              <p class="text-secInfo lg:text-left text-center"> 
+              <p class="text-secInfo lg:text-left text-center font-medium"> 
                 The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
               </p> 
               <div class="flex items-center gap-6 rounded-2xl bg-white p-6">
@@ -165,13 +168,13 @@
       </section>
 
       <!--Our Works Process // section 3-->
-      <section class=" lg:mt-24 mt-8 px-4 w-5/6 mx-auto">
+      <section class="lg:mt-24 mt-8 px-4 w-5/6 mx-auto">
         <!--text content-->
           <div class="flex flex-col items-center gap-4 lg:gap-6 mb-6">
             <div class="cursor-pointer rounded-[32px] bg-white font-extrabold text-center text-secInfo py-2 px-4 text-nowrap"><p><i class="mr-2 fa-solid fa-arrow-right"></i>How we works</p>
             </div>
             <h1 class=" lg:text-5xl text-3xl text-secTitle text-center xl font-extrabold ">Our Works Process</h1> 
-            <p class="text-secInfo text-center"> 
+            <p class="text-secInfo text-center font-medium"> 
                 The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.
             </p>
         </div>
@@ -233,6 +236,62 @@
         </div>
       </section>
     </div>
+
+    <!--Our latest Portfolio Section-->
+    <section class="lg:mt-24 md:mt-14 mt-8 px-4">
+
+      <!--text content-->
+      <div class="flex flex-col items-center gap-4 lg:gap-6 mb-6">
+        <div class="cursor-pointer rounded-[32px] bg-btnSecondery font-extrabold text-center text-secInfo py-2 px-4 text-nowrap"><p><i class="mr-2 fa-solid fa-arrow-right"></i>Explore our Latest works</p>
+        </div>
+        <h1 class=" lg:text-5xl text-3xl text-secTitle text-center xl font-extrabold ">Our Latest Portfolio</h1> 
+        <p class="text-secInfo text-center font-medium"> 
+            The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.
+        </p>
+    </div>
+
+    <!--Grid Section container--> 
+    <div class="px-2 max-w-[1190px] mx-auto grid grid-cols-1 gap-6">
+      <!--Row 1-->
+      <div class="grid grid-cols-[2fr_1fr] items-center gap-6">
+
+        <div class="grid grid-cols-1 md:grid-cols-[1fr_1.7fr] gap-6 p-6 border rounded-xl items-center">
+          <div class=""><img class="w-full rounded-xl" src="./images/img1.png" alt="house"></div>         
+          <div>
+            <h4 class="text-2xl font-extrabold text-secInfo">Commercial</h4>
+            <p class="mt-4 mb-5">The barn house captivates with its blend of rustic charm and modern.</p>
+            <div class="cursor-pointer text-secTitle text-xl font-extrabold">View Details <i class="ml-1 bg-btnPrimary rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          </div>
+          
+          <div class="p-6 border rounded-xl">
+            <img class="w-full" src="./images/img2.png " alt="">
+          </div>
+        </div>
+        <!--Row 2-->
+        <div class="grid grid-cols-[1fr_2fr_1fr] items-center gap-6">
+          <div class="p-6 border rounded-xl">
+            <img class="w-full" src="./images/img3.png " alt="">
+          </div>
+
+          <div class=" h-full grid grid-cols-1 md:grid-cols-2 gap-6 p-6 border rounded-xl items-center">
+            <div><img class="w-full rounded-xl" src="./images/img4.png" alt="house"></div>         
+            <div>
+              <h4 class="text-2xl font-extrabold text-secInfo">Commercial</h4>
+              <p class="mt-4 mb-5">The barn house captivates with its and modern .</p>
+              <div class="cursor-pointer text-secTitle text-xl font-extrabold">View Details <i class="ml-1 bg-btnPrimary rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            </div>
+
+            <div class="p-6 border rounded-xl">
+              <img class="w-full" src="./images/img5.png " alt="">
+            </div>
+        </div>
+      </div>
+    </div>   
+    </section>
   </main>
 
   <footer>
