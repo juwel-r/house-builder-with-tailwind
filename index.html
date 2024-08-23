@@ -39,7 +39,7 @@
         }
       </script>
 </head>
-<body class="font-manrope mt-0">
+<body class="font-manrope mt-0 max-w-[1440px] mx-auto">
 
   <header  class=" bg-gradient-to-b from-secBg to-white">
     <nav class="lg:w-4/5 mx-auto pt-6 lg:pt-14">
@@ -114,17 +114,22 @@
     <div class="bg-secBg">
 
       <!--Section 1-->
-      <section>
-        <div class="hero bg-base-200 min-h-screen">
-          <div class="hero-content flex-col flex-col-reverse items-center lg:flex-row-reverse gap-10">
+      <section class="relative">
+        <div class="hidden lg:block absolute top-12 lg:left-2 xl:left-28 w-28">
+          <img src="./images/Vector.png" alt="Direction">
+        </div>
+        <div class="hero pt-8 lg:pt-24">
+          <div class="hero-content p-0 px-4 flex-col flex-col-reverse items-center lg:flex-row-reverse gap-10">
             <!--section image-->
-            <img class="max-w-[560px]"
+            <div class="max-w-[560px]">
+              <img class="w-full"
               src="./images/Rectangle.png"
               class="max-w-sm rounded-lg shadow-2xl" />
+            </div>
 
               <!--section content-->
             <div class="flex flex-col lg:items-start items-center gap-4 lg:gap-6 max-w-[560px]">
-              <div class="w-32  cursor-pointer rounded-[32px] bg-white font-bold text-center py-2 px-4"><i class="mr-2 fa-solid fa-arrow-right"></i>About Us</div>  
+              <div class="w-32  cursor-pointer rounded-[32px] bg-white font-extrabold text-center text-secInfo py-2 px-4"><i class="mr-2 fa-solid fa-arrow-right"></i>About Us</div>  
 
               <h1 class=" lg:text-5xl text-3xl text-secTitle lg:text-left text-center xl font-extrabold ">We design thoughtful, <br> liveable spaces</h1> 
               <p class="text-secInfo lg:text-left text-center"> 
@@ -151,6 +156,80 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!--section 2-->
+      <section>
+        <!--Optional Section Will Place Here-->
+      </section>
+
+      <!--Our Works Process // section 3-->
+      <section class=" lg:mt-24 mt-8 px-4 w-5/6 mx-auto">
+        <!--text content-->
+          <div class="flex flex-col items-center gap-4 lg:gap-6 mb-6">
+            <div class="cursor-pointer rounded-[32px] bg-white font-extrabold text-center text-secInfo py-2 px-4 text-nowrap"><p><i class="mr-2 fa-solid fa-arrow-right"></i>How we works</p>
+            </div>
+            <h1 class=" lg:text-5xl text-3xl text-secTitle text-center xl font-extrabold ">Our Works Process</h1> 
+            <p class="text-secInfo text-center"> 
+                The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.
+            </p>
+        </div>
+        <!--section cards container-->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+          
+          <!--card 1-->
+          <div class="card bg-[#E7C1D3] items-start p-6 gap-3">
+            <figure class="w-12">
+              <img class="w-full"
+                src="./images/concept.png"
+                alt="concept" />
+            </figure>
+            <div class="card-body p-0 space-y-2">
+              <h2 class="card-title font-extrabold">Concept</h2>
+              <p class="leading-[28px] font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+
+          <!--card 2-->
+          <div class="card bg-[#EFDA6E] items-start p-6 gap-3">
+            <figure class="w-12">
+              <img class="w-full"
+                src="./images/flow-chart.png"
+                alt="concept" />
+            </figure>
+            <div class="card-body p-0 space-y-2">
+              <h2 class="card-title font-extrabold">Design Process</h2>
+              <p class="leading-[28px] font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+
+          <!--card 3-->
+          <div class="card bg-[#A4DAC3] items-start p-6 gap-3">
+            <figure class="w-12">
+              <img class="w-full"
+                src="./images/vision.png"
+                alt="supervision" />
+            </figure>
+            <div class="card-body p-0 space-y-2">
+              <h2 class="card-title font-extrabold">Supervision</h2>
+              <p class="leading-[28px] font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+
+          <!--card 4-->
+          <div class="card bg-[#77AAEA] items-start p-6 gap-3">
+            <figure class="w-12">
+              <img class="w-full"
+                src="./images/budget-planning.png"
+                alt="budget-planning" />
+            </figure>
+            <div class="card-body p-0 space-y-2">
+              <h2 class="card-title font-extrabold">Budget Planningt</h2>
+              <p class="leading-[28px] font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+
         </div>
       </section>
     </div>
