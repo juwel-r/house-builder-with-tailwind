@@ -237,8 +237,8 @@
       </section>
     </div>
 
-    <!--Our latest Portfolio Section-->
-    <section class="lg:mt-24 md:mt-14 mt-8 px-4">
+    <!--Our latest Portfolio Section-->    
+    <section class="lg:py-24 md:py-14 py-8 px-4 bg-secBg lg:bg-transparent">
 
       <!--text content-->
       <div class="flex flex-col items-center gap-4 lg:gap-6 mb-6">
@@ -250,13 +250,14 @@
         </p>
     </div>
 
-    <!--Grid Section container--> 
+    <!--Grid container--> 
     <div class="px-2 max-w-[1190px] mx-auto grid grid-cols-1 gap-6">
-      <!--Row 1-->
-      <div class="grid grid-cols-[2fr_1fr] items-center gap-6">
 
-        <div class="grid grid-cols-1 md:grid-cols-[1fr_1.7fr] gap-6 p-6 border rounded-xl items-center">
-          <div class=""><img class="w-full rounded-xl" src="./images/img1.png" alt="house"></div>         
+      <div class="grid lg:grid-cols-12 items-center gap-6">
+
+        <!--card 1-->
+        <div class="order-1 lg:col-span-8 md:col-span-12 grid md:grid-cols-[1fr_1.7fr] gap-6 p-6 border rounded-xl items-center bg-white">
+          <div class="md:h-56 lg:h-auto "><img class="w-full h-full rounded-2xl" src="./images/img1.png" alt="house"></div>         
           <div>
             <h4 class="text-2xl font-extrabold text-secInfo">Commercial</h4>
             <p class="mt-4 mb-5">The barn house captivates with its blend of rustic charm and modern.</p>
@@ -264,38 +265,48 @@
             </div>
           </div>
           </div>
-          
-          <div class="p-6 border rounded-xl">
-            <img class="w-full" src="./images/img2.png " alt="">
-          </div>
-        </div>
-        <!--Row 2-->
-        <div class="grid grid-cols-[1fr_2fr_1fr] items-center gap-6">
-          <div class="p-6 border rounded-xl">
-            <img class="w-full" src="./images/img3.png " alt="">
+
+          <!--Card 2-->
+          <div class="md:h-56 lg:h-auto order-2 lg:col-span-4 md:col-span-6 p-6 border rounded-xl bg-white">
+            <img class="w-full h-full rounded-2xl" src="./images/img2.png " alt="">
           </div>
 
-          <div class=" h-full grid grid-cols-1 md:grid-cols-2 gap-6 p-6 border rounded-xl items-center">
-            <div><img class="w-full rounded-xl" src="./images/img4.png" alt="house"></div>         
+          <!--Card hidden-->
+          <div class="md:h-56 lg:h-auto lg:hidden order-3 md:col-span-6 p-6 border rounded-xl bg-white">
+            <img class="w-full h-full rounded-2xl" src="./images/img5.png " alt="">
+          </div>
+
+          <!--Card 3-->
+          <div class="md:h-56 lg:h-auto order-4 lg:col-span-3 md:col-span-6 p-6 border rounded-xl bg-white">
+            <img class="w-full h-full rounded-2xl" src="./images/img3.png " alt="">
+          </div>
+
+          <!--Card 4-->
+          <div class="order-3 lg:order-4 lg:col-span-6 md:col-span-12 grid md:grid-cols-2 gap-6 p-6 border rounded-xl items-center bg-white">
+            <div class="md:h-56 lg:h-auto "><img class="w-full h-full rounded-2xl" src="./images/img4.png" alt="house"></div>         
             <div>
               <h4 class="text-2xl font-extrabold text-secInfo">Commercial</h4>
-              <p class="mt-4 mb-5">The barn house captivates with its and modern .</p>
+              <p class="mt-4 mb-5">The barn house captivates charm and modern.</p>
               <div class="cursor-pointer text-secTitle text-xl font-extrabold">View Details <i class="ml-1 bg-btnPrimary rounded-full p-1 -rotate-45 fa-solid fa-arrow-right"></i>
               </div>
             </div>
             </div>
-
-            <div class="p-6 border rounded-xl">
-              <img class="w-full" src="./images/img5.png " alt="">
+            <!--Card 5-->
+            <div class="md:h-56 lg:h-auto  order-6 lg:col-span-3 md:col-span-6 p-6 border rounded-xl bg-white">
+              <img class="w-full h-full rounded-2xl" src="./images/img5.png " alt="">
             </div>
         </div>
+        
+        
       </div>
     </div>   
     </section>
   </main>
 
   <footer>
-
+    
+    
+    
   </footer>
   fd
 </body>
